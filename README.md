@@ -1,0 +1,1 @@
+# STRAPI_pokemon-stats
