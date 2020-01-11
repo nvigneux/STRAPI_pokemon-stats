@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "quick_moves",
+  "info": {
+    "name": "quick_move"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "power": {
+      "type": "integer"
+    },
+    "execution_time": {
+      "type": "integer"
+    },
+    "energy_generated": {
+      "type": "integer"
+    }
+  }
+}
