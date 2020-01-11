@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "pokemon",
+  "info": {
+    "name": "Pokemon"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "json"
+    },
+    "attack": {
+      "type": "integer"
+    },
+    "defense": {
+      "type": "integer"
+    },
+    "stamina": {
+      "type": "integer"
+    },
+    "id_base_pokemon": {
+      "type": "integer"
+    }
+  }
+}
