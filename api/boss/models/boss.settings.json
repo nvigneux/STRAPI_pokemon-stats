@@ -1,0 +1,25 @@
+{
+  "info": {
+    "name": "boss"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "pokemon": {
+      "model": "pokemons"
+    },
+    "iv_attack": {
+      "type": "integer"
+    },
+    "iv_defense": {
+      "type": "integer"
+    },
+    "iv_stamina": {
+      "type": "integer"
+    }
+  },
+  "connection": "default",
+  "collectionName": "bosses"
+}
