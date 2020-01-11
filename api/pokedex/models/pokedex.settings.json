@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "pokedexes",
+  "info": {
+    "name": "Pokedex"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "pokemon": {
+      "model": "pokemons"
+    },
+    "iv_attack": {
+      "type": "integer"
+    },
+    "iv_defense": {
+      "type": "integer"
+    },
+    "iv_stamina": {
+      "type": "integer"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "quick_move": {
+      "model": "quick-move"
+    },
+    "charged_move": {
+      "model": "charged-move"
+    }
+  }
+}
