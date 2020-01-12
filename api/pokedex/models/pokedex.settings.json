@@ -13,13 +13,16 @@
       "model": "pokemons"
     },
     "iv_attack": {
-      "type": "integer"
+      "type": "integer",
+      "max": 15
     },
     "iv_defense": {
-      "type": "integer"
+      "type": "integer",
+      "max": 15
     },
     "iv_stamina": {
-      "type": "integer"
+      "type": "integer",
+      "max": 15
     },
     "user": {
       "plugin": "users-permissions",
