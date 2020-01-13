@@ -14,15 +14,18 @@
     },
     "iv_attack": {
       "type": "integer",
-      "max": 15
+      "max": 15,
+      "required": true
     },
     "iv_defense": {
       "type": "integer",
-      "max": 15
+      "max": 15,
+      "required": true
     },
     "iv_stamina": {
       "type": "integer",
-      "max": 15
+      "max": 15,
+      "required": true
     },
     "user": {
       "plugin": "users-permissions",

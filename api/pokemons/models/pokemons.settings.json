@@ -10,22 +10,31 @@
   },
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "type": {
-      "type": "json"
+      "type": "json",
+      "required": true
     },
     "attack": {
-      "type": "integer"
+      "type": "integer",
+      "required": true
     },
     "defense": {
-      "type": "integer"
+      "type": "integer",
+      "unique": false,
+      "required": true
     },
     "stamina": {
-      "type": "integer"
+      "type": "integer",
+      "unique": false,
+      "required": true
     },
     "id_base_pokemon": {
-      "type": "integer"
+      "type": "integer",
+      "unique": true,
+      "required": true
     }
   }
 }
