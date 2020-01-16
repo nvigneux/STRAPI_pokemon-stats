@@ -10,19 +10,24 @@
   },
   "attributes": {
     "type": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "power": {
-      "type": "integer"
+      "type": "integer",
+      "required": true
     },
     "execution_time": {
-      "type": "integer"
+      "type": "integer",
+      "required": true
     },
     "energy_generated": {
-      "type": "integer"
+      "type": "integer",
+      "required": true
     }
   }
 }

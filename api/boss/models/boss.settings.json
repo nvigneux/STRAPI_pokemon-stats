@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "bosses",
   "info": {
     "name": "boss"
   },
@@ -11,15 +13,24 @@
       "model": "pokemons"
     },
     "iv_attack": {
-      "type": "integer"
+      "type": "integer",
+      "max": 15,
+      "required": true
     },
     "iv_defense": {
-      "type": "integer"
+      "type": "integer",
+      "max": 15,
+      "required": true
     },
     "iv_stamina": {
-      "type": "integer"
+      "type": "integer",
+      "private": false,
+      "max": 15,
+      "required": true
+    },
+    "level": {
+      "type": "integer",
+      "required": true
     }
-  },
-  "connection": "default",
-  "collectionName": "bosses"
+  }
 }
