@@ -14,23 +14,29 @@
     },
     "iv_attack": {
       "type": "integer",
-      "max": 15,
-      "required": true
+      "required": false,
+      "default": 15
     },
     "iv_defense": {
       "type": "integer",
-      "max": 15,
-      "required": true
+      "required": false,
+      "default": 15
     },
     "iv_stamina": {
       "type": "integer",
       "private": false,
-      "max": 15,
-      "required": true
+      "required": false,
+      "default": 0
     },
-    "level": {
+    "difficulty": {
       "type": "integer",
       "required": true
+    },
+    "quick_move": {
+      "model": "quick-move"
+    },
+    "charged_move": {
+      "model": "charged-move"
     }
   }
 }
