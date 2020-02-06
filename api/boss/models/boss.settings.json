@@ -37,6 +37,11 @@
     },
     "charged_move": {
       "model": "charged-move"
+    },
+    "level": {
+      "type": "integer",
+      "default": 41,
+      "required": false
     }
   }
 }
