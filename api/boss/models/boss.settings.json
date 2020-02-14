@@ -39,8 +39,8 @@
       "model": "charged-move"
     },
     "level": {
-      "type": "integer",
-      "default": 41,
+      "type": "decimal",
+      "default": 99,
       "required": false
     }
   }
