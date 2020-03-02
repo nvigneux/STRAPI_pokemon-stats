@@ -32,7 +32,7 @@
       "required": true
     },
     "id_base_pokemon": {
-      "type": "integer",
+      "type": "string",
       "unique": true,
       "required": true
     }
